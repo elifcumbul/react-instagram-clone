@@ -1,0 +1,153 @@
+.form{
+    margin:0 auto;
+    padding: 14px 20px;
+    box-sizing: border-box;
+    border: 2px solid whitesmoke;
+    border-radius: 4px;
+    background-color:white;
+    resize: none;
+}
+
+.middle{
+    margin: 3px auto;
+    width: 100%;
+    height: fit-content;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    text-align: center; 
+}
+
+
+
+.info{
+    color:rgb(156, 149, 149);
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+    margin:15px auto;
+    text-align: center;
+}
+
+
+.form1{
+    margin: 10px auto;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    max-width: 300px;
+    transition: all .3s;
+}
+
+.email{
+    color:rgba(var(--f52,142,142,142),1);
+    font-size: 10px;
+    height: 36px;
+    left: 8px;
+    line-height: 36px;
+    overflow: hidden;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    text-overflow:ellipsis;
+    transform: translateY(-1.50);
+    transform-origin: 0.0;
+    transition: all .1s;
+    user-select: none;
+    white-space: nowrap;
+}
+
+
+.a{
+    background: rgba(var(--b3f,250,250,250),1);
+    border: 0;
+    -webkit-box-flex: 1;
+    flex: 1 0 auto;
+    margin: 0;
+    outline: 0;
+    overflow: hidden;
+    padding: 9px 0 7px 8px;
+    text-overflow: ellipsis;
+}
+
+.b{
+    font-size: 16px;
+}
+
+.c{
+    -webkit-appearance: none;
+    transition: all .5s;
+}
+
+
+.form1:focus-within{
+    transform:scale(1.05,1.05);
+}
+
+.c:focus + .form1{
+    transform:translateY(-2.5) scale(.8);
+}
+
+
+.form2:focus-within{
+    transform:scale(1.05,1.05);
+}
+
+.c:focus + .form2{
+    transform:translateY(-2.5) scale(.8);
+}
+
+
+.form4{
+    margin: 10px auto;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    max-width: 300px;
+    transition: all .3s;
+}
+
+.password{
+    color: rgba(var(--f52,142,142,142),1);
+    font-size: 10px;
+    height: 36px;
+    left: 8px;
+    line-height: 36px;
+    overflow: hidden;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    text-overflow: ellipsis;
+    transform: translateY(-1.50);
+    transform-origin: 0.0;
+    transition: all .1s;
+    user-select: none;
+    white-space: nowrap;
+}
+
+.form4:focus-within{
+    transform:scale(1.05,1.05);
+}
+
+.c:focus + .form4{
+    transform:translateY(-2.5) scale(.8);
+}
+
+.forgot{
+    margin:0 auto;
+}
+
+.forgotpass{
+    color:rgb(156, 149, 149);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+    margin:15px auto;
+    text-align: center;
+}
+
+.error{
+    color:rgb(240, 70, 70);
+    font-size: 10px;
+}

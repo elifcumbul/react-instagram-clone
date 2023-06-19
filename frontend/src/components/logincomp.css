@@ -1,0 +1,39 @@
+.cont {
+    margin: 50px auto;
+    width:fit-content;
+    height: 700px;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  
+.top{
+  background-color:white;
+  margin: 3px auto;
+  width: 100%;
+  height: fit-content;
+  border: 2px solid whitesmoke;
+  border-radius: 5px;
+  text-align: center;
+
+}
+  
+  .gosignup{
+    background-color:white;
+    margin: 3px auto;
+    width: 100%;
+    height: fit-content;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .info{
+    color:rgb(156, 149, 149);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    margin:15px auto;
+    text-align: center;
+  }

@@ -1,0 +1,289 @@
+.navbar {
+  width: 900px;
+  color: #f2f2f2;
+  padding: 10px 50px;
+  margin-left: auto;
+  -webkit-box-align: stretch;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  margin: 0;
+  border: 1px solid rgb(209, 209, 209);
+  display: flex;
+  background-image: linear-gradient(to right, rgb(206, 42, 91), rgba(226, 75, 29, 0.849), rgba(230, 217, 41, 0.719));
+  align-items: center;
+  padding: 1rem 2rem;
+  max-width: 100%;
+  height: 10%;
+  gap: 10rem;
+  font-size: 1.2rem;
+}
+
+.conta {
+  margin: 0 auto;
+  width: max-content;
+  height: 100%;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.pform {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.mainSec {
+  min-height: 100vh;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: stretch;
+  border: 0 solid #000;
+  -webkit-box-align: stretch;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.main {
+  background-color: whitesmoke;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.logo{
+  margin-top: 5px;
+  margin-left: 0;
+  margin-bottom: 2px;
+  width: 35px;
+  padding: 2px 2px;
+}
+
+.title {
+  margin-top: 5px;
+  margin-left: 0;
+  margin-bottom: 2px;
+  display: flex;
+  gap:1rem;
+}
+
+.sec2 {
+  margin: 0 auto;
+  margin-right: 0;
+}
+
+.links {
+  font-size: 1rem;
+  display: flex;
+  gap: 1rem;
+  margin-right: 0;
+}
+
+.infosec {
+  padding: 13px 15px;
+  background-color: whitesmoke;
+  margin-top: 30px;
+  margin-left: 50px;
+  box-sizing: border-box;
+  border: 1px solid rgba(243, 206, 104, 0.74);
+  width: 70%;
+  height: 200px;
+  display: flex;
+  border-left: transparent;
+  border-right: transparent;
+  border-bottom: transparent;
+}
+
+.header {
+  @media (min-width: 736px);
+  display: flex;
+  gap: 7rem;
+  margin-bottom: 44px;
+}
+
+.photo {
+  display: flex;
+  background-color: whitesmoke;
+  border: 1px solid rgb(209, 209, 209);
+  border-radius: 50%;
+  margin-left: 40px;
+  margin-top: 10px;
+  height: 150px;
+  width: 150px;
+}
+
+.addphoto{
+  background-color: whitesmoke;
+  border: 1px solid rgb(209, 209, 209);
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  color:rgb(228, 83, 0);
+}
+
+.usernamesec {
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  background-color: whitesmoke;
+  height: 30px;
+  gap: 3rem;
+}
+
+.usernamesec ul li {
+  list-style: none;
+  text-align: center;
+}
+
+.uname {
+  margin-top: 5px;
+  margin-left: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  margin: auto;
+  padding: 3px 10px;
+}
+
+.user {
+  display: flex;
+
+  font: inherit;
+}
+
+.edit {
+  display: flex;
+}
+
+.editbutton {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  height: 30px;
+  margin: auto;
+  border: 1px solid rgb(209, 209, 209);
+  border-radius: 5px;
+  position: relative;
+  background: 0 0;
+  display: block;
+}
+
+.editlabel {
+  padding: 2px 10px;
+  color: rgb(209, 209, 209);
+  font-family: cursive;
+  margin: auto;
+}
+
+.nums {
+  margin-top: 20px;
+  margin-left: 5px;
+  display: flex;
+  gap: 3rem;
+}
+
+.posts {
+  font-family: cursive;
+  font-size: 15px;
+}
+
+.followers {
+  font-family: cursive;
+  font-size: 15px;
+}
+
+.following {
+  font-family: cursive;
+  font-size: 15px;
+}
+
+.bio {
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  background-color: whitesmoke;
+  height: 30px;
+}
+
+.labels {
+  padding: 2px 15px;
+  background-color: whitesmoke;
+  margin: 10px auto;
+  box-sizing: border-box;
+  border: 1px solid rgba(243, 206, 104, 0.74);
+  border-bottom: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  width: 100%;
+  height: 50px;
+  gap: 3rem;
+  display: flex;
+}
+
+.P, .R, .T, .V {
+  font-size: 0.8rem;
+  margin: auto;
+  font-family: cursive;
+  color:rgb(228, 83, 0);
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px rgba(243, 206, 104, 0.74);
+  
+}
+
+.AddPost{
+  font-size: 1rem;
+  margin: auto;
+  font-family: cursive;
+  letter-spacing: 3px;
+}
+
+.posting{
+  color:rgb(228, 83, 0);
+  font-size: 2.2rem;
+  left: 2px;
+  line-height: 32px;
+  position: absolute;
+  right: 0;
+  background-color: whitesmoke;
+  border: 4px solid rgb(228, 83, 0);
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  margin: auto;
+}
+
+
+.addP{
+  width: 30px;
+  height: 30px;
+  margin: auto;
+  visibility:hidden;
+}
+
+
+
+.postpart {
+  /*
+  padding: 13px 15px;
+  background-color: whitesmoke;
+  margin: auto;
+  box-sizing: border-box;
+  border: 1px solid rgb(209, 209, 209);
+  */
+  max-width: 93.5rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+  /*
+  width: 100%;
+  height: 100%;
+  */
+}

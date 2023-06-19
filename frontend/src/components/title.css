@@ -1,0 +1,9 @@
+.appname {
+    text-shadow: 2px 2px black;
+    margin:20px auto;
+    font-family:cursive;
+    color:rgb(228, 83, 0);
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 3px;
+}
